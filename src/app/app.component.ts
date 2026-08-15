@@ -8,5 +8,14 @@ import { products } from './const/product.component';
 })
 export class AppComponent {
   title = 'material-card';
-  productArr=products
+  productArr=products;
+  // count=0
+  // onclickDisplay="no product Added in cart"
+  // onclick(){
+  //   if(this.count <5){
+  //     this.count++
+  //     this.onclickDisplay=`${this.count} products added successfuly`
+  //     console.log(this.onclickDisplay)
+  //   }
+  // }
 }
